@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
 # install nvim
-./install-nvim.sh
+./setup-nvim.sh
 
 # set up ghostty terminal
-./ghostty-setup.sh
+./setup-ghostty.sh
 
 # set up starship
 ./setup-starship.sh
+
+# change lid closing behavior
+./setup-lid-close.sh
