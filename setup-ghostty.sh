@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Store Ghostty terminfo in a heredoc variable
 read -r -d '' GHOSTTY_TERMINFO <<'EOF'
