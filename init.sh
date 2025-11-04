@@ -11,3 +11,6 @@
 
 # change lid closing behavior
 ./setup-lid-close.sh
+
+# install docker
+./setup-docker.sh
