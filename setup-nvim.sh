@@ -8,7 +8,7 @@ NVIM_SRC_DIR="/tmp/neovim-src"
 # ensure sudo is installed and user has sudo group
 apt update
 apt install -y sudo usermod
-usermod -aG sudo "$TARGET_USER"
+/usr/sbin/usermod -aG sudo "$TARGET_USER"
 
 # function to install neovim + LazyVim for a given user
 install_for_user() {
