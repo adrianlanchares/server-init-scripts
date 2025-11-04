@@ -17,7 +17,7 @@ install_for_user() {
   USER_HOME="$(eval echo ~"$USERNAME")"
 
   # packages required for building Neovim
-  apt install -y ninja-build gettext cmake unzip curl git
+  apt install -y ninja-build gettext cmake unzip curl
 
   # build Neovim
   rm -rf "$NVIM_SRC_DIR"
