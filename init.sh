@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Scripts to initialize homelab server and install essential utilities
+
 # set up ghostty terminal
 ./setup-ghostty.sh
 
