@@ -4,6 +4,7 @@ set -euo pipefail
 # VARIABLES
 TARGET_USER="coco"
 NVIM_SRC_DIR="/tmp/neovim-src"
+CUSTOM_REPO="https://github.com/adrianlanchares/nvim-config"
 
 # ensure sudo is installed and user has sudo group
 apt update
