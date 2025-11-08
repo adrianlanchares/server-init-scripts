@@ -18,3 +18,9 @@ echo "alias lzg='lazygit'" >>~/.bashrc
 # Install lazydocker
 curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
 echo "alias lzd='lazydocker'" >>~/.bashrc
+
+# Install tree
+sudo apt install tree
+
+# Install ncdu
+sudo apt install ncdu
