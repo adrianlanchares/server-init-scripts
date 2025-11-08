@@ -17,3 +17,6 @@
 
 # install docker
 ./setup-docker.sh
+
+# install and run tailscale
+./setup-tailscale.sh
