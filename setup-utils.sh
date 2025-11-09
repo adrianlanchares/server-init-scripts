@@ -24,3 +24,6 @@ sudo apt install tree
 
 # Install ncdu
 sudo apt install ncdu
+
+# Install htop
+sudo apt install htop
