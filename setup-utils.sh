@@ -3,8 +3,6 @@
 # Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
-echo "alias z='zoxide'" >>~/.zshrc
-
 # Install fzf
 sudo apt install fzf
 
@@ -13,8 +11,6 @@ LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/re
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/cagent
-echo "alias lzg='lazygit'" >>~/.zshrc
 
 # Install lazydocker
 curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
-echo "alias lzd='lazydocker'" >>~/.zshrc
