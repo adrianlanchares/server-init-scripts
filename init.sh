@@ -18,11 +18,17 @@
 # install docker
 ./setup-docker.sh
 
+# set up tmux
+./setup.tmux.sh
+
 # set up zsh
 ./setup-zsh.sh
 
 # setup utilities
 ./setup-utils.sh
+
+# setup dorfiles
+./setup-dotfiles.sh
 
 # install and run tailscale
 ./setup-tailscale.sh
