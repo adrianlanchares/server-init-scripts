@@ -18,6 +18,9 @@
 # install docker
 ./setup-docker.sh
 
+# set up zsh
+./setup-zsh.sh
+
 # setup utilities
 ./setup-utils.sh
 
