@@ -2,13 +2,18 @@
 
 sudo apt install stow -y
 
-git clone https://github.com/adrianlanchares/dotfiles ~/dotfiles
+cd $HOME
+if [[ ! -d "dotfiles" ]]; then
+    git clone https://github.com/adrianlanchares/dotfiles
+    cd dotfiles
+  else
+    echo "Dotfiles already cloned. Pulling latest changes..."
+    cd dotfiles
+    git pull
+  fi
 
-cd dotfiles
-
-for pkg in "${PACKAGES[@]}"; do
-    stow -R "$pkg"
-done
+stow zsh
+stow nvim
 
 echo "Dotfiles stowed."
 
